@@ -1,0 +1,33 @@
+User Management Screen
+
+   Requirements
+
+- Ability to view all users in the system
+- Ability to create a new user in the system
+- Ability to hide disabled user in the system
+
+   Initial Display
+
+- Upon accessing the User Management Screen, display the list of existing user accounts.
+- Provide options to add new user.
+
+   UI Components
+User List
+- A table with four columns showing a list of existing user accounts.
+- Table includes  columns for ID, username, email and enabled/disabled situation.
+- Above the table there is a "New User" button. Next to that there is "Hide Disabled User" button.
+
+ Behavior 
+View User List
+- Display the list of existing user accounts.
+- Provide options to add new user account.
+
+Add New User:
+- Clicking on the "New User" button should display the new user form.
+- New user form should include Username, Display Name, Phone number, E-mail, User Roles and Enabled/Disabled sections. User Roles should have three options which are: Guest, Admin and Super Admin.
+- After filling out the form and clicking on the "Save User" button, add the new user to the list.
+   
+
+
+
+
